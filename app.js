@@ -27,6 +27,9 @@ function renderProjects(filter = 'all') {
     button.append(frame, meta, text('h3', p.title)); article.append(button); grid.append(article);
   });
   document.querySelector('#work-count').textContent = `${String(visible.length).padStart(2,'0')} PROJECTS`;
+  const allCount = projects.filter(p => p.selected).length;
+  const allSup = document.querySelector('[data-filter="all"] sup');
+  if (allSup) allSup.textContent = allCount;
 }
 renderProjects();
 document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
