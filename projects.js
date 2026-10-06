@@ -178,6 +178,19 @@ window.PORTFOLIO_PROJECTS = [
     external: "iminerals",
     selected: true
   },
+  {
+    id: "fishfinder",
+    title: "Fishfinder — Mobile UI & UX",
+    category: "Mobile UI & UX Concept",
+    filters: ["graphic"],
+    image: "assets/project-fishfinder.webp",
+    alt: "Fishfinder mobile app UI and UX case study",
+    description: "A mobile UI and UX case study for discovering, planning, and sharing fishing spots. Clean interfaces, user journey mapping, and a cohesive design system.",
+    tools: "UI/UX Design · Product Design · User Research · Design Systems · Figma",
+    external: "fishfinder",
+    selected: true
+  },
+
 
   {
     id: 'reel',
