@@ -44,7 +44,20 @@ function openProject(id, trigger) {
   document.querySelector('#dialog-description').textContent = project.description;
   document.querySelector('#dialog-tools').textContent = project.tools;
   const external = document.querySelector('#dialog-external'); external.hidden = !project.external;
-  if (project.external) external.href = project.external; else external.removeAttribute('href');
+  if (project.external) {
+    external.href = project.external;
+    if (project.id === 'iminerals') {
+      external.textContent = 'View Full Case Study ↗';
+      external.removeAttribute('target');
+      external.removeAttribute('rel');
+    } else {
+      external.textContent = project.video ? 'Open original video ↗' : 'View project ↗';
+      external.setAttribute('target', '_blank');
+      external.setAttribute('rel', 'noopener noreferrer');
+    }
+  } else {
+    external.removeAttribute('href');
+  }
   const error = document.querySelector('#video-error'); error.hidden = true;
   media.replaceChildren();
   if (project.video) {

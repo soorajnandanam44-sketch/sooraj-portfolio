@@ -167,6 +167,19 @@ window.PORTFOLIO_PROJECTS = [
     selected: true
   },
   {
+    id: "iminerals",
+    title: "iMinerals — Everyday Wellness",
+    category: "Brand Identity · Packaging · Web",
+    filters: ["graphic"],
+    image: "assets/project-iminerals.webp",
+    alt: "iMinerals brand identity, translucent burgundy glass packaging, and digital experience",
+    description: "A visual identity that brings a warm, confident presence to a supplement range. Burgundy glass, expressive typography, and natural imagery connect the packaging to a wider brand experience.",
+    tools: "Brand Identity · Packaging Design · Typography · Art Direction · Web Design · 3D Product Visualization",
+    external: "iminerals",
+    selected: true
+  },
+
+  {
     id: 'reel',
     title: '3D product animation showreel',
     category: 'Selected motion / 01:15',
