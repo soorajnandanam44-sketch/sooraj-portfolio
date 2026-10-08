@@ -164,6 +164,7 @@ window.PORTFOLIO_PROJECTS = [
     alt: 'Full Zebra industrial hardware campaign landing page',
     description: 'An industrial hardware campaign landing page built in Webflow, using a dark visual system and scanning-inspired motifs.',
     tools: 'Webflow · Campaign landing page · Visual system',
+    external: 'zebra',
     selected: true
   },
   {

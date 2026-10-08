@@ -46,7 +46,7 @@ function openProject(id, trigger) {
   const external = document.querySelector('#dialog-external'); external.hidden = !project.external;
   if (project.external) {
     external.href = project.external;
-    if (project.id === 'iminerals' || project.id === 'fishfinder') {
+    if (project.id === 'iminerals' || project.id === 'fishfinder' || project.id === 'zebra') {
       external.textContent = 'View Full Case Study ↗';
       external.removeAttribute('target');
       external.removeAttribute('rel');
