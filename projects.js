@@ -156,6 +156,18 @@ window.PORTFOLIO_PROJECTS = [
     selected: true
   },
   {
+    id: 'canon',
+    title: 'Canon — Do You Love Me, Like I Love You?',
+    category: 'Campaign & Web Design',
+    filters: ['graphic'],
+    image: 'assets/project-canon.webp',
+    alt: 'Canon LX-D5500 campaign landing page shown on a laptop',
+    description: 'An integrated campaign design and Webflow landing page for the Canon LX-D5500 color label printer, pairing reliability with an emotional narrative.',
+    tools: 'Art direction · Campaign creative · Landing page · Social rollout',
+    external: 'canon',
+    selected: true
+  },
+  {
     id: 'zebra',
     title: 'Zebra Technologies',
     category: 'Campaign & Web Design',
